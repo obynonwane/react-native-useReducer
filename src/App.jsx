@@ -40,7 +40,11 @@ function NameList() {
 }
 
 function App() {
-  return <NameList />;
+  return (
+    <div>
+      <NameList />
+    </div>
+  );
 }
 
 export default App;
